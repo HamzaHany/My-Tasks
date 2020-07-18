@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+}
+
+div.main {
+    display: flex;
+   justify-content: center;
+    align-items: center;
+}
+
+div.task h4 {
+    display: inline-block;
+}
+div.task {
+    background-color: aqua;
+    width: 500px;
+}
+div.task h4.done {
+    color: darkblue;
+}
+
+div.task h4.not {
+    color: red;
+}
